@@ -28,7 +28,6 @@ Description: Summary: Omni-Path library development headers
 
 Package: libopamgt0
 Architecture: amd64
-Pre-Depends: ${misc:Pre-Depends},
 Depends: libibumad3,
          ${misc:Depends},
          ${shlibs:Depends},
@@ -89,7 +88,6 @@ Description: Management level tools and scripts
 Package: libopasadb1
 Section: libs
 Architecture: amd64
-Pre-Depends: ${misc:Pre-Depends},
 Depends: ${misc:Depends},
          ${shlibs:Depends},
 Description: Omni-Path dsap API library
